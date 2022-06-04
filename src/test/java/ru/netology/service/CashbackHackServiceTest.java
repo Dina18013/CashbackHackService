@@ -47,7 +47,7 @@ public class CashbackHackServiceTest {
     }
 
     @org.junit.Test
-    public void shouldReturn1000Amount1000() {
+    public void shouldReturngit0Amount1000() {
 
         int expected = 1000;
         int actual = service.remain(1000);
