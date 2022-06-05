@@ -49,7 +49,7 @@ public class CashbackHackServiceTest {
     @org.junit.Test
     public void shouldReturn0Amount1000() {
 
-        int expected = 1000;
+        int expected = 0;
         int actual = service.remain(1000);
 
         assertEquals(expected, actual);
